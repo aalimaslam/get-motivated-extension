@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Get Motivated!",
+    "description": "Get Motivated with some quotes and stuff!",
+    "version": "1.0",
+    "action": {
+        "default_popup" : "index.html",
+        "default_icon": "Get motivated.png"
+    },
+    "chrome_settings_overrides": {
+        "homepage_url": "index.html"
+    }
+}
