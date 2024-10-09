@@ -7,7 +7,7 @@
         "default_popup" : "index.html",
         "default_icon": "Get motivated.png"
     },
-    "chrome_settings_overrides": {
-        "homepage_url": "index.html"
+    "chrome_url_overrides" : {
+        "newtab" : "index.html"
     }
 }
