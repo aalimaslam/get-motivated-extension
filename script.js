@@ -193,9 +193,9 @@ const moreQuotes = [
 quotes = [...quotes, ...moreQuotes];
 
 function generateQuote() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quote").innerText = quotes[randomIndex];
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("quote").innerText = randomQuote;
 }
 
-// Generate a quote when the page loads
-window.onload = generateQuote;
+// Generate a quote when the page is fully loaded
+document.addEventListener("DOMContentLoaded", generateQuote);
